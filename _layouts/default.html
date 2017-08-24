@@ -4,6 +4,11 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: API_ID, onlyWidgets: true});
+</script>
 		</head>
 		<body>
 			<nav>
@@ -24,6 +29,10 @@
 	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
 				</ul>
+				<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
 			</footer>
 		</body>
 	</html>
